@@ -9,6 +9,7 @@ type DevTreeInputProps = {
 }
 
 export const DevTreeInput = ({ item, handleUrlChange, handleEnableLink }: DevTreeInputProps) => {
+   
     return (
         <div className='bg-white shadow-sm p-5 flex items-center gap-3'>
             <div className="w-12 h-12 bg-cover" style={{ backgroundImage: `url('/social/icon_${item.name}.svg')` }}>
